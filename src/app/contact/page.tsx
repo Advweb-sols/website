@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
-    MapPin, Phone, Mail, Clock, Send, Headphones,
+    Phone, Mail, Clock, Send, Headphones,
     Settings, Zap, Users, Globe, CheckCircle, MessageCircle, Building2
 } from 'lucide-react';
 
@@ -200,32 +200,17 @@ const ContactPage = () => {
                         <div className="lg:col-span-2 space-y-6">
                             <h2 className="text-xl md:text-2xl font-bold text-[var(--navy-dark)] mb-4">Get in Touch</h2>
 
-                            {/* Registered Office */}
+                            {/* Head Office */}
                             <div className="feature-card">
                                 <h3 className="font-semibold text-[var(--navy-dark)] mb-3 flex items-center gap-2">
                                     <Building2 className="w-5 h-5 text-[var(--primary)]" />
-                                    Registered Office
+                                    Head Office
                                 </h3>
                                 <address className="text-gray-600 not-italic text-sm leading-relaxed">
                                     <strong>Advivance Solutions Private Limited</strong><br />
-                                    140, 7th Main Road, 1st Cross<br />
-                                    Gandhinagar, Yelahanka<br />
-                                    Bangalore North, Karnataka – 560064<br />
-                                    India
-                                </address>
-                            </div>
-
-                            {/* Branch Office */}
-                            <div className="feature-card">
-                                <h3 className="font-semibold text-[var(--navy-dark)] mb-3 flex items-center gap-2">
-                                    <MapPin className="w-5 h-5 text-[var(--accent)]" />
-                                    Branch Office
-                                </h3>
-                                <address className="text-gray-600 not-italic text-sm leading-relaxed">
-                                    <strong>Advivance Solutions Private Limited</strong><br />
-                                    503, 5th Floor, Srinath Square<br />
-                                    Kutchery Chowk, Harmu Road<br />
-                                    Ranchi, Jharkhand – 834001<br />
+                                    36, 14th Main Rd, E- block extension<br />
+                                    Sahakar Nagar, Hebbal<br />
+                                    Bengaluru, Karnataka – 560092<br />
                                     India
                                 </address>
                             </div>

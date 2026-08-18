@@ -301,9 +301,9 @@ export default function AboutPage() {
                             </div>
                             <h3 className="font-bold text-[var(--navy-dark)] mb-2">Bangalore Office</h3>
                             <p className="text-gray-600 text-sm">
-                                140, 7th Main Road, 1st Cross<br />
-                                Gandhinagar, Yelahanka<br />
-                                Bangalore North, Karnataka – 560064
+                                36, 14th Main Rd, E- block extension<br />
+                                Sahakar Nagar, Hebbal<br />
+                                Bengaluru, Karnataka – 560092
                             </p>
                         </div>
                         <div className="feature-card text-center">

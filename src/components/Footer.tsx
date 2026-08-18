@@ -71,7 +71,7 @@ const Footer = () => {
                             <li className="flex items-start gap-3">
                                 <MapPin className="w-4 h-4 md:w-5 md:h-5 text-[var(--primary)] flex-shrink-0 mt-0.5" />
                                 <span className="text-gray-400 text-sm">
-                                    140, 7th Main Road, Gandhinagar, Yelahanka, Bangalore - 560064
+                                    36, 14th Main Rd, E- block extension, Sahakar Nagar, Hebbal, Bengaluru - 560092
                                 </span>
                             </li>
                             <li>
